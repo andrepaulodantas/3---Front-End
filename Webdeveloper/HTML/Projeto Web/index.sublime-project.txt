@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/araujo/Documents/Primeiro projeto"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "/home/araujo/Documents/Projeto Final"
+		}
+	]
+}

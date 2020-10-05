@@ -1,0 +1,9 @@
+live-server
+
+browser-sync
+
+ browser-sync start -f . --server
+
+gulp
+
+npm install --global gulp-cli

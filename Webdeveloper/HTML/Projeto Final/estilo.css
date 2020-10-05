@@ -1,0 +1,245 @@
+{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	/*background: #f3f3f3;*/
+}
+
+#area{
+	width: 1000px;
+	margin: 0 auto;
+
+}
+ #navegacao {
+ background: #fff;
+ border-bottom: 0px solid #d8d8d8;
+ height: 100px;
+ position: fixed;
+ width: 100%;
+ top: 0;
+
+
+}	
+
+p:hover {
+  background-color: pink;
+}
+
+#example1 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+}
+
+#example2 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+
+#example3 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px red;
+}
+
+			#grad {
+				
+  			background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+			}
+
+			#box{
+			width: 30px;
+			height: 30px;
+			background: url("../imagens/canada.png");
+			/*padding: 5px;*/
+			/*box-sizing: border-box;
+			border-radius: 20px 80px 50px 45px;
+			-webkit-border-radius: 20px; 
+			-moz-border-radius: 20px; */
+		    }
+
+			#meio {
+  			padding: 20px;
+  			text-align: center;
+			}
+
+			/*#logo {
+			float: left;
+			}	*/	
+
+			#menu {
+			float: right;
+			padding: 50px 10px;
+			}
+
+			h2{
+				color: #FF0000;
+			}
+			#area-principal{
+				width: 1000px;
+				margin: 10px auto 10px auto;
+
+			}
+
+			#postagem{
+				background: #fff;
+				padding: 10px;
+				margin-bottom: 10px;
+			}
+
+			.img-postagem{
+				float: left;
+				margin: 0 10px 10px 0;
+			}
+			
+			.data-postagem{
+				font-size: 14px;
+				border-bottom: 1px solid #f4f4f4;
+				display: block;
+				padding-bottom: 10px;
+				margin-bottom: 10px;
+			}
+
+			.postado{
+				border-left: 5px solid #FF0000;
+				padding-left: 5px;
+				display: block;
+				margin-top: 10px;
+			}
+
+			/*Classes*/
+.vermelho {
+	color: #FF0000;
+}
+
+.data-postagem {
+	font-size: 14px;
+	border-bottom: 1px solid #f4f4f4;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.img-postagem{
+	float: left;
+	margin:0 10px 5px 0;
+}
+
+.postado {
+	border-left: 5px solid #d8d8d8;
+	padding-left: 5px;
+	display: block;
+	margin-top: 10px;
+}
+
+			.negrito{
+				font-weight: bold;/*100 até 900*/
+			}
+
+				#flutuante{
+				border:3px solid gray;
+				width: 300px;
+				height: 400px;
+				float: left;
+				margin: 15px;
+			}
+
+			.formatacao{
+				/*text-decoration: underline;
+				text-decoration: overline;*/
+				text-decoration: line-through;
+			}
+
+		    #picture{
+				float: left;
+				margin: 10px 5px 5px 10px;
+			}
+
+			#foto{
+				height: 20%;
+				width: 18%;
+				border-radius: 20px 20px 30px 45px;
+			}
+
+			div {
+ 				text-align: justify;
+				}
+			h1 {
+  			text-shadow: 5px black;
+  			font-size: 20px;
+			}
+
+			p{
+				color: black;
+				background-color: white;
+			}
+				/*#menu{
+				background-color: red;
+				width: right;
+
+			}*/
+			.formatacao{
+				text-decoration: underline;
+				
+			}
+
+			.caixa{
+				background: #1e6f44;
+				padding: 0px;
+				margin: 0px;
+				/*left: 0;*/
+				/*top: 0;*/
+				/*position: relative;*/
+
+			}
+
+			#fixo{
+				position: fixed;
+				top: 0;	
+				width: 70%;		
+			}
+
+			#abosoluta{
+				position: absolute;
+				bottom: 0;
+				left: 0;
+
+			}
+
+			a{
+				text-decoration: none;
+				padding: 5px;
+			}
+			
+			/*Links não visitados*/
+			a:link{
+				color: #b9c941;
+			}
+
+			/*Links Visitados*/
+			a:visited{
+				color: 	#000000;
+			}
+
+			/*Links Hover, passa o cursor sobre o link*/
+			a:hover{
+				color: #FFF;/*Branco*/
+				background: #FF0000;
+			}
+
+			/*Links Ativos, quando clicado*/
+			a:active{
+				color: #e4f371;
+			}
+
+			a:link{
+				color: #b9c941;
+			}
+			/*<td  align="middle" colspan="1"> <h3 style="background-color:rgb(255,99,71);">"CASAL DE NORDESTINOS: ANDRÉ & JULIANA!" </h3>*/
+
+			/*<h3 style="background-color:rgb(255,99,71);">*/
